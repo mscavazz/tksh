@@ -1,0 +1,7 @@
+/* Scoped styles to avoid theme conflicts */
+#ts-account-wallet .ts-wallet-inner { display:flex; align-items:center; gap:10px; flex-wrap:wrap; }
+.ts-connect-btn { padding:6px 10px; font-size:0.9rem; }
+.ts-wc-status { display:flex; align-items:center; gap:8px; }
+.ts-wc-address { font-weight:600; font-family:monospace; }
+.ts-delete { color:#dc3545; } /* bootstrap danger color for delete */
+@media (max-width:600px) { #ts-account-wallet .ts-wallet-inner { flex-direction:column; align-items:flex-start; } }
